@@ -1,4 +1,4 @@
-from pbs.pn_02751 import Q02751
+from pbs.pn_10610 import Q10610
 from utils import duration_decorator
 
 
@@ -7,7 +7,7 @@ loop = 1
 
 @duration_decorator(loop=loop)
 def run():
-    module = Q02751()
+    module = Q10610()
     module.solution()
 
 
